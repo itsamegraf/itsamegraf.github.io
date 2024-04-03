@@ -1,0 +1,26 @@
+<html>
+<head>
+    <script src="bin/matter.js"></script>
+    <!--script src="bin/pixi.js" type="module"></script-->
+    <style src="src/main.css"></style>
+</head>
+<body>
+<div id="box">
+    <div id="canvasContainer" class="fullscreen" style="background-color: #666;height: 100vh; width:100vh">
+    </div>
+    <div id="ground"></div>
+    <div id="videoContainer" style="opacity: 0;
+    position: fixed;
+    right: 0; z-index: -999;
+    bottom: 0;">
+        <video id="video" preload="auto" autoplay muted loop>
+            <!--source src="./assets/intro-end.mp4" type="video/mp4"-->
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<script src="lib/physics.js"></script>
+
+</script>
+</body>
+</html>
